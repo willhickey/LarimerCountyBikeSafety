@@ -15,5 +15,5 @@ var config = {
     //Change to your username, insert function on cartodb, and cartodb tablename (see also /cartoDB_functions)
 	cartoDBusername : 'larimercountydangerspots',
 	cartoDBinsertfunction : 'insert_bikeways_data',
-	walkthroughWelcome: "<p>Please add points to this map where you feel unsafe riding a bike, or thing infrastructure improvements would make bicycling safer. The map is restricted to Larimer County as we are collecting this data at their request.</p>"
+	walkthroughWelcome: "<p>Please add points to this map where you feel unsafe riding a bike, or where infrastructure improvements would make bicycling safer. The map is restricted to Larimer County as we are collecting this data at their request.</p>"
 };

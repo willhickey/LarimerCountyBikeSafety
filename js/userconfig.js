@@ -4,16 +4,16 @@
 
 var config = {
 	//Set Map Bounds & point map is centered around
-	mapFocus : [42.381899, -71.122499],
-	south : 42.24 ,
-	west : -71.27,
-	north : 42.453,
-	east : -70.95,
+	mapFocus : [40.65,-105.46],
+	south : 40.25 ,
+	west : -106.2,
+	north : 41,
+	east : -104.94,
 	//Mapbox access token & key for basemap
 	mapboxAccessToken :              
             'pk.eyJ1Ijoid2lsbGhpY2tleSIsImEiOiJjajBjdTNtbjMwNTAzMndvMzIwazFsd202In0.ELrVFM3hwMp5m8KBGZwcxA',
     //Change to your username, insert function on cartodb, and cartodb tablename (see also /cartoDB_functions)
 	cartoDBusername : 'larimercountydangerspots',
 	cartoDBinsertfunction : 'insert_bikeways_data',
-	walkthroughWelcome: "<p>This webmap allows you to view data collected by the <a href='http://bostoncyclistsunion.org/' target='_blank'>Boston Cyclists Union</a> on biking in Boston.</p><p>It also allows you to submit input on where biking infrastructure can be improved by drawing on the map! The map is restricted to the inner core of Metro Boston, where we concentrate our advocacy.</p>"
+	walkthroughWelcome: "<p>Please add points to this map where you feel unsafe riding a bike, or thing infrastructure improvements would make bicycling safer. The map is restricted to Larimer County as we are collecting this data at their request.</p>"
 };

@@ -13,7 +13,7 @@ var config = {
 	mapboxAccessToken :              
             'pk.eyJ1Ijoid2lsbGhpY2tleSIsImEiOiJjajBjdTNtbjMwNTAzMndvMzIwazFsd202In0.ELrVFM3hwMp5m8KBGZwcxA',
     //Change to your username, insert function on cartodb, and cartodb tablename (see also /cartoDB_functions)
-	cartoDBusername : 'larimercountydangerspots',
+	cartoDBusername : 'willhickey',
 	cartoDBinsertfunction : 'insert_bikeways_data',
 	walkthroughWelcome: "<p>Please add points to this map where you feel unsafe riding a bike, or where infrastructure improvements would make bicycling safer. The map is restricted to Larimer County as we are collecting this data at their request.</p>"
 };

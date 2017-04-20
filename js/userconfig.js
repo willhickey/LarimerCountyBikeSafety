@@ -4,7 +4,7 @@
 
 var config = {
 	//Set Map Bounds & point map is centered around
-	mapFocus : [40.65,-105.46],
+	mapFocus : [40.5,-105.1],
 	south : 40.25 ,
 	west : -106.2,
 	north : 41,

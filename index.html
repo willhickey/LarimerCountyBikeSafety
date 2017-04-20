@@ -99,7 +99,7 @@
 		var bounds = L.latLngBounds(L.latLng(config.south,config.west), L.latLng(config.north,config.east));
         var map = L.map('map', { 
             center: config.mapFocus,
-            zoom: 13, minZoom : 13, maxzoom: 17, maxBounds : bounds, zoomControl :false });
+            zoom: 11, minZoom : 10, maxzoom: 17, maxBounds : bounds, zoomControl :false });
         map.touchZoom.enable();
         L.control.zoom({position : 'bottomleft'}).addTo(map);
 		    
@@ -146,7 +146,7 @@
 		var labelLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
             "attribution": '&copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
             "maxzoom": 17,
-        	"minzoom": 13, 
+        	"minzoom": 10, 
             "pane":"markerPane"}).addTo(map);
 //		markerPane.appendChild(labelLayer.getContainer());
 		//See for explanation of zindex level http://stackoverflow.com/q/35092858/4047679 

@@ -490,7 +490,7 @@
             
     //Sending the data
       $.ajax({
-        type: 'POST',
+        type: 'GET',
         url: 'https://'+config.cartoDBusername+'.cartodb.com/api/v2/sql',
         crossDomain: true,
         data: {"q":sql},
